@@ -30,6 +30,7 @@ jobs:
     name: CI Summary
     runs-on: macos-latest
     timeout-minutes: 5
+    permissions: {}
     needs: [test-bot]
     if: always()
     steps:
