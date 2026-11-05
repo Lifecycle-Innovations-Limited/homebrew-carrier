@@ -1,8 +1,8 @@
 class Carrier < Formula
   desc "CLI and stdio MCP for MVNO/eSIM fleet control"
   homepage "https://mcp.carrier.llc"
-  url "https://registry.npmjs.org/@carrierllc/mcp/-/mcp-0.13.62.tgz"
-  sha256 "c4e06e590528de71605f28b01e3e15c22928d10ca70ce9574f69ab5e65acf1c4"
+  url "https://registry.npmjs.org/@carrierllc/mcp/-/mcp-0.13.71.tgz"
+  sha256 "54ddcd1688e625afe1d0628f93bdd630a4e07e84798daf7c9d994b13a60b875e"
   license "MIT"
 
   depends_on "node"
