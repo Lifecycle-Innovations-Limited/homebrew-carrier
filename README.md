@@ -18,6 +18,6 @@ brew update
 brew upgrade carrier
 ```
 
-The formula tracks the public npm tarball. Version **0.2.20** ships the light-first storefront template and `carrier site logo`.
+The formula tracks the public npm tarball and is rewritten by the `@carrierllc/mcp` release workflow. Check `brew info carrier` for the current version.
 
 If `brew install` fails on a pre-release macOS because Xcode is marked outdated, `npm i -g @carrierllc/mcp` is the fallback.
